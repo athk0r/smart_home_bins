@@ -1,0 +1,6 @@
+rule "packetverdopplung"
+when
+	Item ContactNonce22_NonceType changed to 999
+then
+	logInfo("log.txt", "Paketverdopplung bei Sensor 35")
+end
