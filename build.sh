@@ -1,4 +1,4 @@
 #!/bin/sh
 make clean
-./generate
+./generate.sh
 make
